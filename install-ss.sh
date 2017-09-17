@@ -13,7 +13,7 @@ fi
 
 echo "开始下载安装包..."
 
-curl -k -o misstar-ss.tgz https://raw.githubusercontent.com/carabob/tools/master/misstar-ss.tgz
+curl -k -o /tmp/misstar-ss.tgz https://raw.githubusercontent.com/carabob/tools/master/misstar-ss.tgz
 
 if [ $? -eq 0 ];then
     echo "安装包下载完成！"
