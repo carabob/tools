@@ -4,4 +4,6 @@ Recover ss plugin in Misstar Tools
 
 Run shell command: 
 
-curl -k -o install.sh https://raw.githubusercontent.com/carabob/tools/master/install.sh && chmod a+x /tmp/install.sh && /tmp/install.sh
+   ```sh
+   curl -k -o install.sh https://raw.githubusercontent.com/carabob/tools/master/install.sh && chmod a+x /tmp/install.sh && /tmp/install.sh
+   ```
