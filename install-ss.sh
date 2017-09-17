@@ -11,6 +11,17 @@ else
         exit
 fi
 
+echo "开始下载安装包..."
+
+curl -k -o misstar-ss.tgz https://raw.githubusercontent.com/carabob/tools/master/misstar-ss.tgz
+
+if [ $? -eq 0 ];then
+    echo "安装包下载完成！"
+else 
+    echo "下载安装包失败，正在退出..."
+    exit
+fi
+
 echo "开始解压安装包..."
 
 tar -zxvf /tmp/misstar-ss.tgz -C /etc >/dev/null 2>&1
